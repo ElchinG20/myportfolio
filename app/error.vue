@@ -15,8 +15,8 @@ useHead({
 })
 
 useSeoMeta({
-  title: 'Page not found',
-  description: 'We are sorry but this page could not be found.'
+  title: 'Страница не найдена',
+  description: 'Упс... Кажется здесь ничего нет.'
 })
 
 const [{ data: navigation }, { data: files }] = await Promise.all([
