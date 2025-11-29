@@ -9,11 +9,10 @@
 
    @font-face {  
     font-family: 'Igra Sans';  
-    src: url('path/to/font.woff2') format('woff2'), url('path/to/font.woff') format('woff');  
+    src: url('app/assets/css/IgraSans.otf') format('opentype');  
     font-weight: normal;  
     font-style: normal;  
 }  
-}
 
 :root {
   --ui-container: var(--container-4xl);
