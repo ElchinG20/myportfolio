@@ -6,12 +6,6 @@
 @theme static {
  --font-sans: 'Public Sans', sans-serif;
   --font-serif: 'Instrument Serif', serif; 
-
-   @font-face {  
-    font-family: 'IgraSans';
-    --font-sans: 'IgraSans';
-    --font-serif: 'IgraSans';
-    src: url('/css/IgraSans.otf') format('opentype');  
 }  
 
 :root {
