@@ -5,8 +5,8 @@
 @source "../../../content/**/*";
 
 @theme static {
- --font-sans: 'Public Sans', sans-serif;
-  --font-serif: 'Instrument Serif', serif; 
+ --font-sans: "Golos Text", 'Public Sans', sans-serif;
+  --font-serif: "Golos Text", 'Instrument Serif', serif; 
 }  
 
 :root {
