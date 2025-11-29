@@ -8,7 +8,7 @@
  --font-serif: 'Golos Text', 'Instrument Serif', serif; 
 }
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+body { touch-action: manipulation; } /* Устанавливает ограничение на случайное увеличение при двойном касании */
 
 :root {
   --ui-container: var(--container-4xl);
