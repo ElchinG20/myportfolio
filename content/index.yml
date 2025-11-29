@@ -35,24 +35,24 @@ about:
 experience:
   title: Опыт работы
   items:
-    - position: "Бизнес-аналитик"
+    - position: "Бизнес-аналитик в"
       date: "2025 - н.в."
       company:
         name: Яндекс Банк
         logo: "i-simple-icons-nuxtdotjs"
-        url: "https://nuxt.com"
-        color: "#00DC82"
-    - position: "Assets Designer at"
-      date: "2022 - 2023"
+        url: "https://fintech.yandex.ru/"
+        color: "#FB3F1C"
+    - position: "Бизнес-аналитик в"
+      date: "2023 - 2025"
       company:
-        name: Raycast
+        name: Ozon
         logo: "i-simple-icons-raycast"
         url: "https://raycast.com"
         color: "#FF6363"
-    - position: "Senior UX/UI Designer at"
-      date: "2020 - 2021"
+    - position: "Стажер аналитик"
+      date: "2022 - 2023"
       company:
-        name: Linear
+        name: Сколково
         logo: "i-simple-icons-linear"
         url: "https://linear.app"
         color: "#5E6AD2"
