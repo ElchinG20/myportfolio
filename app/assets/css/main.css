@@ -12,8 +12,6 @@
     --font-sans: 'IgraSans';
     --font-serif: 'IgraSans';
     src: url('/css/IgraSans.otf') format('opentype');  
-    font-weight: normal;  
-    font-style: normal;  
 }  
 
 :root {
