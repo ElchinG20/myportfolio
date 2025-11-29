@@ -39,21 +39,21 @@ experience:
       date: "2025 - н.в."
       company:
         name: Яндекс Банк
-        logo: "i-simple-icons-nuxtdotjs"
+        logo: "i-simple-icons-yandex"
         url: "https://fintech.yandex.ru/"
         color: "#FB3F1C"
     - position: "Бизнес-аналитик в"
       date: "2023 - 2025"
       company:
         name: Ozon
-        logo: "i-simple-icons-raycast"
+        logo: "i-simple-icons-ozon"
         url: "https://raycast.com"
         color: "#005BFF"
     - position: "Стажер аналитик в"
       date: "2022 - 2023"
       company:
         name: Сколково
-        logo: "i-simple-icons-linear"
+        logo: "i-simple-icons-skolkovo"
         url: "https://linear.app"
         color: "#5E6AD2"
 testimonials:
