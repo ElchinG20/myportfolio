@@ -1,12 +1,11 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
-@import 'package:google_fonts/google_fonts.dart';
 
 @source "../../../content/**/*";
 
 @theme static {
- --font-sans: "Golos Text", 'Public Sans', sans-serif;
-  --font-serif: "Golos Text", 'Instrument Serif', serif; 
+ --font-sans: 'Golos Text', 'Public Sans', sans-serif;
+ --font-serif: 'Golos Text', 'Instrument Serif', serif; 
 }  
 
 :root {
