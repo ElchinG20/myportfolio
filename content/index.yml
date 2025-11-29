@@ -35,10 +35,10 @@ about:
 experience:
   title: Опыт работы
   items:
-    - position: "Brand Designer at"
-      date: "2023 - Present"
+    - position: "Бизнес-аналитик"
+      date: "2025 - н.в."
       company:
-        name: Nuxt
+        name: Яндекс Банк
         logo: "i-simple-icons-nuxtdotjs"
         url: "https://nuxt.com"
         color: "#00DC82"
