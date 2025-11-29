@@ -6,7 +6,9 @@
 @theme static {
  --font-sans: 'Golos Text', 'Public Sans', sans-serif;
  --font-serif: 'Golos Text', 'Instrument Serif', serif; 
-}  
+}
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 :root {
   --ui-container: var(--container-4xl);
