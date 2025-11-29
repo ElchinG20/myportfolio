@@ -26,7 +26,7 @@ export default defineAppConfig({
     credits: `Создано с ❤️ Эльчином  • © ${new Date().getFullYear()}`,
     colorMode: false,
     links: [{
-      'icon': 'i-simple-icons-discord',
+      'icon': 'i-simple-icons-telegram',
       'to': 'https://go.nuxt.com/discord',
       'target': '_blank',
       'aria-label': 'Nuxt on Discord'
