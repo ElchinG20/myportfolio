@@ -12,11 +12,11 @@ export const navLinks: NavigationMenuItem[] = [{
   label: 'Блог',
   icon: 'i-lucide-file-text',
   to: '/blog'
-}, {
+}, /* {
   label: 'Публикации',
   icon: 'i-lucide-mic',
   to: '/speaking'
-}, {
+}, */ {
   label: 'Обо мне',
   icon: 'i-lucide-user',
   to: '/about'
