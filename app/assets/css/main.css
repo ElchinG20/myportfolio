@@ -12,10 +12,12 @@ body { touch-action: manipulation; } /* Устанавливает ограни�
 
 :root {
   --ui-container: var(--container-4xl);
+  touch-action: manipulation;
 
   ::selection {
     color: #282a30;
     background-color: #c8c8c8;
+    touch-action: manipulation;
   }
 }
 
@@ -23,5 +25,6 @@ body { touch-action: manipulation; } /* Устанавливает ограни�
   ::selection {
     color: #ffffff;
     background-color: #474747;
+    touch-action: manipulation;
   }
 }
