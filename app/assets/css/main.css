@@ -9,7 +9,7 @@
 
    @font-face {  
     font-family: 'IgraSans';  
-    src: url('app/assets/css/IgraSans.otf') format('opentype');  
+    src: url('/css/IgraSans.otf') format('opentype');  
     font-weight: normal;  
     font-style: normal;  
 }  
