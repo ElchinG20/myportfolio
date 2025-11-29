@@ -8,7 +8,7 @@
   --font-serif: 'Instrument Serif', serif;  */
 
    @font-face {  
-    font-family: 'Igra Sans';  
+    font-family: 'IgraSans';  
     src: url('app/assets/css/IgraSans.otf') format('opentype');  
     font-weight: normal;  
     font-style: normal;  
