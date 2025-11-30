@@ -7,6 +7,16 @@ defineProps<{
 </script>
 
 <template>
+  <UBanner
+    icon="streamline-flex:information-circle"
+    title="Внимание! Сервис работает в beta-режиме"
+    close
+    close-icon="i-lucide-x-circle"
+    color="error"
+  />
+</template>
+
+<template>
   <div class="fixed top-2 sm:top-4 mx-auto left-1/2 transform -translate-x-1/2 z-10">
     <UNavigationMenu
       :items="links"
