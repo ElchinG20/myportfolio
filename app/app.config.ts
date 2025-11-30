@@ -23,7 +23,7 @@ export default defineAppConfig({
     }
   },
   footer: {
-    credits: `Создано с ❤️ Эльчином  • © ${new Date().getFullYear()}`,
+    credits: `С ❤️ Эльчин • © ${new Date().getFullYear()}`,
     colorMode: false,
     links: [{
       'icon': 'i-simple-icons-telegram',

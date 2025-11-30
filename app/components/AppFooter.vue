@@ -9,7 +9,7 @@ const { footer } = useAppConfig()
   >
     <template #left>
       {{ footer.credits }}
-      <UBadge icon="svg-spinners:gooey-balls-2" size="md" color="info" variant="outline">Все системы в норме</UBadge>
+      <UBadge icon="svg-spinners:gooey-balls-2" size="md" color="info" variant="outline">Cистемы в норме</UBadge>
     </template>
 
     <template #right>
