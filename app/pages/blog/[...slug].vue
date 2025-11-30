@@ -106,8 +106,8 @@ const formatDate = (dateString: string) => {
               size="sm"
               variant="link"
               color="neutral"
-              label="Copy link"
-              @click="copyToClipboard(articleLink, 'Article link copied to clipboard')"
+              label="Скопировать ссылку"
+              @click="copyToClipboard(articleLink, 'Ссылка успешно похищена! Используй ее с умом (или без) 😉')"
             />
           </div>
           <UContentSurround :surround />
