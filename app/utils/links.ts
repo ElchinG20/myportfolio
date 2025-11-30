@@ -1,4 +1,6 @@
 import type { NavigationMenuItem } from '@nuxt/ui'
+import { icons as mdiIcons } from "@iconify-json/mdi";
+import { icons as mdiLightIcons } from "@iconify-json/mdi-light";
 
 export const navLinks: NavigationMenuItem[] = [{
   label: 'Главная',
@@ -12,9 +14,9 @@ export const navLinks: NavigationMenuItem[] = [{
   label: 'Блог',
   icon: 'i-lucide-file-text',
   to: '/blog'
-}, /* {
+}, {
   label: 'Публикации',
-  icon: 'i-lucide-mic',
+  icon: 'bxl:slack',
   to: '/speaking'
 }, */ {
   label: 'Обо мне',

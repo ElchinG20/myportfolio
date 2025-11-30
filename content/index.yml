@@ -78,7 +78,7 @@ testimonials:
       avatar:
         src: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
         srcset: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
-  - quote: "Работа с Эльчином была настоящим удовольствием. Он продемонстрировал исключительное понимание бизнес-процессов и умение выявлять ключевые проблемы. Его аналитические отчеты всегда содержали точную и актуальную информацию, что значительно облегчило принятие решений на всех этапах нашего проекта."
+  - quote: "Работа с Эльчином была настоящим удовольствием. Он продемонстрировал исключительное понимание бизнес-процессов и умение выявлять ключевые проблемы."
     author:
       name: 'Сергей Усольцев'
       description: 'Бизнес-аналитик в GreenTech Music'
