@@ -33,19 +33,5 @@ useSeoMeta({
     <LandingTestimonials :page />
     <LandingFAQ :page />
 
-
-    <USeparator
-    :avatar="{
-      src: '/favicon.ico'
-    }"
-    />
-    <LandingAvatars :page />
-
-    <USeparator
-    :avatar="{
-      src: '/favicon.ico'
-    }"
-    />
-
   </UPage>
 </template>
