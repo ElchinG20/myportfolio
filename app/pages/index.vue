@@ -61,7 +61,7 @@ useSeoMeta({
       :chip="{ inset: true, color: 'error' }"
     />
     </UAvatarGroup><!-- Аватары End-->
-    <br>
+    
 
     <style scoped>
 .avatar-container {
@@ -78,6 +78,7 @@ useSeoMeta({
       src: '/favicon.ico'
     }"
     />
+    <br>
 
     <LandingFAQ :page />
   </UPage>
