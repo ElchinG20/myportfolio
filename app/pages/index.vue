@@ -39,48 +39,13 @@ useSeoMeta({
       src: '/favicon.ico'
     }"
     />
-    <br>
- 
-    <UAvatarGroup class="avatar-container"><!-- Аватары Start-->
-    <UAvatar
-      src="https://github.com/benjamincanac.png"
-      alt="Benjamin Canac"
-      size="xl"
-      :chip="{ inset: true, color: 'success' }"
-    />
-
-    <UAvatar
-      src="https://github.com/romhml.png"
-      alt="Romain Hamel"
-      size="xl"
-      :chip="{ inset: true, color: 'warning' }"
-    />
-
-    <UAvatar
-      src="https://github.com/noook.png"
-      alt="Neil Richter"
-      size="xl"
-      :chip="{ inset: true, color: 'error' }"
-    />
-    </UAvatarGroup><!-- Аватары End-->
-    <br>
-    
-
-    <style scoped>
-.avatar-container {
-  justify-content: center;  /* центрирует по горизонтали */
-  align-items: center;     /* центрирует по вертикали */
-  height: 100vh;          /* занимает всю высоту экрана */
-  padding: 20px;
-}
-</style>
+    <LandingAvatars :page />
 
     <USeparator
     :avatar="{
       src: '/favicon.ico'
     }"
     />
-
 
   </UPage>
 </template>
