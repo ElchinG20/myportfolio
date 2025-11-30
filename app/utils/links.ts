@@ -1,4 +1,4 @@
-import type { NavigationMenuItem } from '@nuxt/ui'
+import type { NavigationMenuItem } from '@nuxt/ui';
 import { icons as mdiIcons } from "@iconify-json/mdi";
 import { icons as mdiLightIcons } from "@iconify-json/mdi-light";
 
