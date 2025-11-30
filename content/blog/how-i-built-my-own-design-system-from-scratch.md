@@ -12,6 +12,10 @@ author:
     alt: Emma Thompson
 ---
 
+<!-- Закоментированный текст!
+
+
+
 After years of starting each project with a blank Figma file, I finally took the plunge and created my own comprehensive design system. The process was both challenging and incredibly rewarding, and I wanted to share my approach for other designers considering the same journey.
 
 I started by auditing five of my recent projects, identifying common patterns and components that appeared across different designs. This revealed inconsistencies in my work that I hadn't noticed before—seven slightly different button styles, inconsistent spacing rules, and text styles that varied without clear purpose.
