@@ -8,10 +8,12 @@ const { footer } = useAppConfig()
     :ui="{ left: 'text-muted text-xs' }"
   >
     <template #left>
-      <!-- {{ footer.credits }} -->
-      <UBadge icon="streamline-flex:information-circle" size="lg" color="info" variant="outline">Все системы в норме</UBadge>
+      {{ footer.credits }}
     </template>
 
+    <template #center class="text-center">
+      <UBadge icon="streamline-flex:information-circle" size="lg" color="info" variant="outline">Все системы в норме</UBadge>
+    </template>
 
     <template #right>
       <template v-if="footer?.links">
