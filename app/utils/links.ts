@@ -1,4 +1,4 @@
-import type { NavigationMenuItem } from '@nuxt/ui'
+import type { NavigationMenuItem } from '@nuxt/ui';
 
 export const navLinks: NavigationMenuItem[] = [{
   label: 'Главная',
@@ -17,7 +17,7 @@ export const navLinks: NavigationMenuItem[] = [{
   icon: 'bxl:slack',
   to: '/speaking'
 }, */ {
-  label: '',
+  
   icon: 'i-lucide-user',
   to: '/about'
 }]
