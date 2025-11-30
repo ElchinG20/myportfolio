@@ -6,7 +6,7 @@ description: "Думаешь, аналитика — это скучно? Пок
 hero:
   links:
     - label: "Написать мне"
-      to: mailto:e.gasanov@aihomm.ru
+      to: mailto:e.gasanov@aihomm.ruр
       color: "neutral"
   images:
     - src: /hero/random-1.avif
