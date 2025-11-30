@@ -37,8 +37,9 @@ useSeoMeta({
       src: '/favicon.ico'
     }"
     />
-    <div class="avatar-container">
-    <UAvatarGroup><!-- Аватары Start-->
+    <br>
+ 
+    <UAvatarGroup class="avatar-container"><!-- Аватары Start-->
     <UAvatar
       src="https://github.com/benjamincanac.png"
       alt="Benjamin Canac"
@@ -60,7 +61,7 @@ useSeoMeta({
       :chip="{ inset: true, color: 'error' }"
     />
     </UAvatarGroup><!-- Аватары End-->
-    </div>
+    <br>
 
     <style scoped>
 .avatar-container {
