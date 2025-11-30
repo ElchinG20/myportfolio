@@ -39,7 +39,7 @@ experience:
       date: "2025 - н.в."
       company:
         name: Яндекс Банк
-        logo: "fa7-brands:yandex"
+        icon: 'fa7-brands:yandex'
         url: "https://fintech.yandex.ru/"
         color: "#FB3F1C"
     - position: "Бизнес-аналитик в"
