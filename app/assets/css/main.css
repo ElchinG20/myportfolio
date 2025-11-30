@@ -8,7 +8,7 @@
  --font-serif: 'Golos Text', 'Instrument Serif', serif; 
 }
 
-body { touch-action: manipulation; } /* Устанавливает ограничение на случайное увеличение при двойном касании */
+.body { touch-action: manipulation;  /* Устанавливает ограничение на случайное увеличение при двойном касании */
 
 :root {
   --ui-container: var(--container-4xl);
@@ -27,4 +27,5 @@ body { touch-action: manipulation; } /* Устанавливает ограни�
     background-color: #474747;
     touch-action: manipulation;
   }
+}
 }
