@@ -6,7 +6,7 @@ description: "Превращаю сложные бизнес-процессы в
 hero:
   links:
     - label: "Написать мне"
-      to: https://github.com/nuxt-ui-templates/portfolio
+      to: e.gasanov@aihomm.ru
       color: "neutral"
   images:
     - src: /hero/random-1.avif
