@@ -31,6 +31,8 @@ useSeoMeta({
     </UPageSection>
     <LandingBlog :page />
     <LandingTestimonials :page />
+    <LandingFAQ :page />
+
 
     <USeparator
     :avatar="{
@@ -61,11 +63,11 @@ useSeoMeta({
       :chip="{ inset: true, color: 'error' }"
     />
     </UAvatarGroup><!-- Аватары End-->
+    <br>
     
 
     <style scoped>
 .avatar-container {
-  display: flex;
   justify-content: center;  /* центрирует по горизонтали */
   align-items: center;     /* центрирует по вертикали */
   height: 100vh;          /* занимает всю высоту экрана */
@@ -78,8 +80,7 @@ useSeoMeta({
       src: '/favicon.ico'
     }"
     />
-    <br>
 
-    <LandingFAQ :page />
+
   </UPage>
 </template>
