@@ -1,15 +1,14 @@
 ---
-title: How I Built My Design System from Scratch
-description: A practical guide to creating your own design system, from initial
-  audit to implementation, and the lessons learned along the way.
+title: "Анализ для стриминговой платформы GreenTech Music"
+description: Оптимизация пользовательского интерфейса и анализ поведения пользователей для увеличения конверсии.
 date: 2025-03-05
 image: https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 minRead: 6
 author:
-  name: Emma Thompson
+  name: Эльчин Гасанов
   avatar:
     src: https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: Emma Thompson
+    alt: Эльчин Гасанов
 ---
 
 <!-- Закоментированный текст!

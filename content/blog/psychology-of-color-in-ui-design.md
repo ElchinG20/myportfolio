@@ -1,15 +1,14 @@
 ---
-title: The Psychology of Color in UI Design
-description: Exploring how strategic color choices can influence user behavior,
-  evoke emotions, and enhance the overall user experience of digital products.
+title: "Разработка системы мониторинга для Farm Med City"
+description: Разработка системы, которая отслеживает запасы медикаментов на всех этапах цепочки поставок – от производителя до аптек. Использование аналитики для прогнозирования спроса и минимизации избыточных запасов, что позволило сократить издержки на хранение и минимизировать дефицит товаров.
 date: 2025-03-15
 image: https://images.pexels.com/photos/40799/paper-colorful-color-loose-40799.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 minRead: 5
 author:
-  name: Emma Thompson
+  name: Эльчин Гасанов
   avatar:
     src: https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: Emma Thompson
+    alt: Эльчин Гасанов
 ---
 
 <!-- Закоментированный текст!
