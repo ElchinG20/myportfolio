@@ -8,7 +8,7 @@ const { footer } = useAppConfig()
     :ui="{ left: 'text-muted text-xs' }"
   >
     <template #left>
-      {{ footer.credits }}
+      <!-- {{ footer.credits }} -->
       <UBadge icon="streamline-flex:information-circle" size="lg" color="info" variant="outline">Все системы в норме</UBadge>
     </template>
 
