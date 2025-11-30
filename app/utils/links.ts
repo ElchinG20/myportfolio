@@ -18,7 +18,7 @@ export const navLinks: NavigationMenuItem[] = [{
   label: 'Публикации',
   icon: 'bxl:slack',
   to: '/speaking'
-}, */ {
+}, {
   label: 'Обо мне',
   icon: 'i-lucide-user',
   to: '/about'
