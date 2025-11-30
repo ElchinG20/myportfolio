@@ -29,17 +29,17 @@ export default defineAppConfig({
       'icon': 'i-simple-icons-telegram',
       'to': 'https://go.nuxt.com/discord',
       'target': '_blank',
-      'aria-label': 'Nuxt on Discord'
+      'aria-label': 'Elchin on Telegram'
     }, {
       'icon': 'i-simple-icons-x',
-      'to': 'https://go.nuxt.com/x',
+      'to': 'https://x.com/ElchinGV',
       'target': '_blank',
-      'aria-label': 'Nuxt on X'
+      'aria-label': 'Elchin on X'
     }, {
       'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/nuxt/ui',
+      'to': 'https://github.com/ElchinG20',
       'target': '_blank',
-      'aria-label': 'Nuxt UI on GitHub'
+      'aria-label': 'Elchin on GitHub'
     }]
   }
 })
