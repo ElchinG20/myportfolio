@@ -27,7 +27,7 @@ export default defineAppConfig({
     colorMode: false,
     links: [{
       'icon': 'i-simple-icons-telegram',
-      'to': 'https://go.nuxt.com/discord',
+      'to': 'https://t.me/elchin_gw',
       'target': '_blank',
       'aria-label': 'Elchin on Telegram'
     }, {
