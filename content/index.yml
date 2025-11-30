@@ -47,15 +47,22 @@ experience:
       company:
         name: Ozon
         logo: "i-simple-icons-ozon"
-        url: "https://raycast.com"
+        url: "https://ozon.tech/"
         color: "#005BFF"
     - position: "Стажер аналитик в"
       date: "2022 - 2023"
       company:
         name: Сколково
         logo: "i-simple-icons-skolkovo"
-        url: "https://linear.app"
+        url: "https://sk.ru/"
         color: "#b1ec52"
+    - position: "Студент в"
+      date: "2017 - 2022"
+      company:
+        name: РЭУ им. Г.В. Плеханова
+        logo: "i-simple-icons-skolkovo"
+        url: "https://www.rea.ru/"
+        color: "#7267d9"
 testimonials:
   - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
     author:
@@ -79,15 +86,15 @@ testimonials:
         src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
         srcset: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
 blog:
-  title: "Latest Articles"
-  description: "Some of my recent thoughts"
+  title: "Последние статьи"
+  description: "Некоторые из моих недавних мыслей"
 faq:
-  title: Frequently Asked Questions
-  description: Answers to common questions about my process and services.
+  title: Часто задаваемые вопросы
+  description: Ответы на распространенные вопросы о моем процессе и услугах.
   categories:
-    - title: Services & Process
+    - title: Услуги и процессы
       questions:
-        - label: What services do you offer?
+        - label: Какие услуги вы предлагаете?
           content: |
             I specialize in UX/UI design and front-end development. This includes user research, wireframing, interactive prototyping, creating intuitive user interfaces, building responsive websites and web applications (especially with Vue.js/Nuxt.js), and developing design systems. My goal is to create seamless digital experiences from concept to deployment.
         - label: What is your design process like?
