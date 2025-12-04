@@ -1,4 +1,5 @@
 import { defineCollection, defineContentConfig, z } from '@nuxt/content'
+import Sign from './app/pages/sign.vue'
 
 const createBaseSchema = () => z.object({
   title: z.string(),
@@ -122,6 +123,14 @@ export default defineContentConfig({
     about: defineCollection({
       type: 'page',
       source: 'about.yml',
+      schema: z.object({
+        content: z.object({}),
+        images: z.array(createImageSchema())
+      })
+    }),
+    sign: defineCollection({
+      type: 'page',
+      source: 'sign.yml',
       schema: z.object({
         content: z.object({}),
         images: z.array(createImageSchema())
