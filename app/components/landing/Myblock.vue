@@ -81,9 +81,9 @@ onMounted(() => {
     ]"
     
     :button="{
-      Id: '#myblock',
       label: 'Войти',
-      path: '/', hash: '#myblock'
+      to: '/sign',
+      icon: 'i-heroicons-arrow-right'
     }"
     orientation="horizontal"
     tagline="Подключиться к хабу"
