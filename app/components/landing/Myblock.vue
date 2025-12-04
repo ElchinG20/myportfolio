@@ -7,6 +7,8 @@
     orientation="horizontal"
     spotlight spotlight-color="secondary"
   >
+  <UButton icon="svg-spinners:180-ring" size="md" color="primary" variant="solid">Обновить</UButton>
+
     <UAvatar class="rounded-none squircle" src="/hero/ra-100.jpg" alt="Эльчин Гасанов" />
     <style>
       .squircle {
