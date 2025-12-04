@@ -18,25 +18,6 @@ useSeoMeta({
   description: page.value?.seo?.description || page.value?.description,
   ogDescription: page.value?.seo?.description || page.value?.description
 })
-</script>
-
-<!-- <template>
-    <UBanner
-    title="Мы в процессе крутого апгрейда. Скоро релиз!"
-    close
-    close-icon="i-lucide-x-circle"
-  />
- <UPageSection
-    title="Скоро обновление"
-    description="Скоро на этой странице появится обновление. Следите за новостями."
-    icon="svg-spinners:gooey-balls-2"
-    orientation="horizontal"
-    spotlight spotlight-color="secondary"
-  >
-  <img src="/hero/ra-100.jpg" alt="Эльчин Гасанов" class="w-full" />
-
- </UPageSection>
-</template> -->
 
 const members: UserProps[] = [
   {
@@ -133,3 +114,20 @@ const members: UserProps[] = [
 </template>
 
 
+<!-- <template>
+    <UBanner
+    title="Мы в процессе крутого апгрейда. Скоро релиз!"
+    close
+    close-icon="i-lucide-x-circle"
+  />
+ <UPageSection
+    title="Скоро обновление"
+    description="Скоро на этой странице появится обновление. Следите за новостями."
+    icon="svg-spinners:gooey-balls-2"
+    orientation="horizontal"
+    spotlight spotlight-color="secondary"
+  >
+  <img src="/hero/ra-100.jpg" alt="Эльчин Гасанов" class="w-full" />
+
+ </UPageSection>
+</template> -->
