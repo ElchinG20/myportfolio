@@ -80,8 +80,7 @@ onMounted(() => {
       'Бесплатно и децентрализованно'
     ]"
     :button="{
-      label: 'Войти',
-      trailing-icon="i-lucide-arrow-right"
+      label: 'Войти'
     }"
     orientation="horizontal"
     tagline="Подключиться к хабу"
