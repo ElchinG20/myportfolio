@@ -79,9 +79,11 @@ onMounted(() => {
       'Доступ к репозиториям',
       'Бесплатно и децентрализованно'
     ]"
+    
     :button="{
       Id: '#myblock',
-      label: 'Войти'
+      label: 'Войти',
+      path: '/', hash: '#myblock'
     }"
     orientation="horizontal"
     tagline="Подключиться к хабу"
