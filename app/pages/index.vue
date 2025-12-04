@@ -5,7 +5,7 @@ const { data: page } = await useAsyncData('index', () => {
 if (!page.value) {
   throw createError({
     statusCode: 404,
-    statusMessage: 'Page not found',
+    statusMessage: 'Ничего не нашлось',
     fatal: true
   })
 }
@@ -30,8 +30,10 @@ useSeoMeta({
       <LandingWorkExperience :page />
     </UPageSection>
     <LandingBlog :page />
+    <LandingMyblock :page />
     <LandingTestimonials :page />
     <LandingFAQ :page />
+    
 
   </UPage>
 </template>
