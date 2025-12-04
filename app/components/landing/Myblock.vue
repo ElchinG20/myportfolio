@@ -43,7 +43,7 @@ const items: TimelineItem[] = [
   {
     date: 'Dec 30, 2025',
     title: 'Тесты и внедрение',
-    description: 'Тесты качества и оптимизация производительности. Проект в пилоте',
+    description: 'Тесты качества и оптимизация производительности. Проект в пилоте.',
     icon: 'i-lucide-check-circle',
     value: 'deployment'
   }
