@@ -1,8 +1,8 @@
 <template>
   <UPageCard
-    title="Tailwind CSS"
-    description="Nuxt UI integrates with latest Tailwind CSS v4, bringing significant improvements."
-    icon="i-simple-icons-tailwindcss"
+    title="Скоро обновление"
+    description="Скоро на этой странице появится обновление. Следите за новостями."
+    icon="svg-spinners:gooey-balls-2"
     orientation="horizontal"
     spotlight
     spotlight-color="secondary"
