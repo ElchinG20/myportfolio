@@ -76,7 +76,8 @@ const members: UserProps[] = [
     :actions="[{
       label: 'Обновить',
       icon: 'svg-spinners:gooey-balls-2',
-      color: 'neutral'
+      color: 'neutral',
+      link: 'cursor-pointer',
     }]"
   >
     <template #leading>
