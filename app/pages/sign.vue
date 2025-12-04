@@ -81,8 +81,7 @@ const members: UserProps[] = [
   >
     <template #leading>
       <UAvatarGroup size="xl">
-        <UAvatar src="https://github.com/nuxt.png" alt="Nuxt" />
-        <UAvatar src="https://github.com/unjs.png" alt="Unjs" />
+        <UAvatar src="/favicon.ico" alt="Эльчин Гасанов" />
       </UAvatarGroup>
     </template>
 
