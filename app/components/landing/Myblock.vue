@@ -9,8 +9,6 @@
     }"
   >
   <UPageCard
-    title="Скоро обновление"
-    description="Скоро на этой странице появится обновление. Следите за новостями."
     icon="svg-spinners:gooey-balls-2"
     orientation="horizontal"
     spotlight 
