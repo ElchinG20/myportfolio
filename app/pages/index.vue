@@ -19,8 +19,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <UPage v-if="page" 
-  spotlight spotlight-color="secondary">
+  <UPage v-if="page">
     <LandingHero :page />
     <UPageSection
       :ui="{
