@@ -75,7 +75,7 @@ const members: UserProps[] = [
     variant="naked"
     :actions="[{
       label: 'Обновить',
-      icon: 'i-lucide-refresh-cw',
+      icon: 'svg-spinners:gooey-balls-2',
       color: 'neutral'
     }]"
   >
