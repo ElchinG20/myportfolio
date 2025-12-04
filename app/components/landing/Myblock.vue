@@ -67,3 +67,28 @@ onMounted(() => {
   </UPageSection>
 </template> -->
 
+<template>
+<UPageSection>
+  <UPricingPlan
+    title="Пора войти и зажечь!"
+    description="Время встретиться с друзьями. Твоё пространство уже ждёт"
+    price="Бесплатно"
+    :features="[
+      'Комьюнити разработчиков',
+      'Неограниченное количество проектов',
+      'Доступ к репозиториям',
+      'Бесплатно и децентрализованно'
+    ]"
+    :button="{
+      label: 'Войти',
+      trailing-icon="i-lucide-arrow-right"
+    }"
+    orientation="horizontal"
+    tagline="Подключиться к хабу"
+    terms="Открывай дверь в мир возможностей!"
+  />
+</UPageSection>
+</template>
+
+
+
