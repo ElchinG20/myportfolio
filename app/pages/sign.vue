@@ -38,9 +38,6 @@ useSeoMeta({
  </UPageSection>
 </template> -->
 
-<script setup lang="ts">
-import type { UserProps } from '@nuxt/ui'
-
 const members: UserProps[] = [
   {
     name: 'Эльчин Г.',
