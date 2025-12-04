@@ -1,5 +1,4 @@
 import { defineCollection, defineContentConfig, z } from '@nuxt/content'
-import Sign from './app/pages/sign.vue'
 
 const createBaseSchema = () => z.object({
   title: z.string(),
