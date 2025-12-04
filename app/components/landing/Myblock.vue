@@ -7,12 +7,12 @@
       description: 'text-left mt-2 text-sm sm:text-md lg:text-sm text-muted'
     }"
   >
-  <UPageCard
+  <!-- <UPageCard
     icon="svg-spinners:gooey-balls-2"
     orientation="horizontal"
     spotlight 
     spotlight-color="secondary" 
-  >    <!-- spotlight spotlight-color="secondary"  Цвет и движение мыши -->
+  >    
   
     <UAvatar class="w-full rounded-none squircle" src="/hero/ra-100.jpg" alt="Эльчин Гасанов" />
     <style>
@@ -23,6 +23,6 @@
         mask-repeat: no-repeat;
       }
     </style>
-  </UPageCard>
+  </UPageCard> -->
  </UPageSection>
 </template>
