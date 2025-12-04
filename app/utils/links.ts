@@ -23,5 +23,5 @@ export const navLinks: NavigationMenuItem[] = [{
 }, {
   label: 'Войти',
   icon: 'i-lucide-user',
-  to: '#'
+  to: '#myblock'
 }]
