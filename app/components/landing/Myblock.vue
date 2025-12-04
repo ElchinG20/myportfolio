@@ -80,6 +80,7 @@ onMounted(() => {
       'Бесплатно и децентрализованно'
     ]"
     :button="{
+      Id: '#myblock',
       label: 'Войти'
     }"
     orientation="horizontal"
