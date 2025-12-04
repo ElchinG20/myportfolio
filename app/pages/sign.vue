@@ -22,12 +22,12 @@ import type { UserProps } from '@nuxt/ui'
 const members: UserProps[] = [
   {
     name: 'Эльчин Гасанов',
-    description: 'danielroe',
-    to: 'https://github.com/danielroe',
+    description: 'ElchinG20',
+    to: 'https://github.com/ElchinG20',
     target: '_blank',
     avatar: {
       src: '/hero/ra-100.jpg',
-      alt: 'danielroe'
+      alt: 'Эльчин Гасанов'
     }
   },
   {
@@ -37,17 +37,17 @@ const members: UserProps[] = [
     target: '_blank',
     avatar: {
       src: 'https://github.com/pi0.png',
-      alt: 'pi0'
+      alt: 'Николай Восков'
     }
   },
   {
-    name: 'Ольга Мишина',
+    name: 'Оливер Харвин',
     description: 'atinux',
     to: 'https://github.com/atinux',
     target: '_blank',
     avatar: {
       src: 'https://github.com/atinux.png',
-      alt: 'atinux'
+      alt: 'Оливер Харвин'
     }
   },
   {
@@ -57,7 +57,7 @@ const members: UserProps[] = [
     target: '_blank',
     avatar: {
       src: 'https://github.com/benjamincanac.png',
-      alt: 'benjamincanac'
+      alt: 'Герман Нейман'
     }
   }
 ]
