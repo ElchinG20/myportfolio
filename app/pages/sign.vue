@@ -1,11 +1,9 @@
 <template>
-  <UBanner
+    <UBanner
     title="Мы в процессе крутого апгрейда. Скоро релиз!"
     close
     close-icon="i-lucide-x-circle"
   />
-</template>
-<template>
  <UPageSection
     title="Скоро обновление"
     description="Скоро на этой странице появится обновление. Следите за новостями."
