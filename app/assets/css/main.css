@@ -15,7 +15,6 @@
   ::selection {
     color: #282a30;
     background-color: #c8c8c8;
-    touch-action: manipulation;
   }
 }
 
@@ -23,6 +22,7 @@
   ::selection {
     color: #ffffff;
     background-color: #474747;
-    touch-action: manipulation;
+    touch-action: manipulation; /* Устанавливает ограничение на случайное увеличение при двойном касании */
+    touch-action: pan-x pan-y; /* Запрет увеличения экрана (масштабирования) в браузере Safari iOS 10+ */
   }
 }
