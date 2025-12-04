@@ -73,6 +73,7 @@ const members: UserProps[] = [
     title="Скоро будет круто 😎"
     description="В данный момент мы колдуем над сайтом. Магия требует времени!"
     variant="naked"
+    class="cursor-pointer"
     :actions="[{
       label: 'Обновить',
       icon: 'svg-spinners:gooey-balls-2',
