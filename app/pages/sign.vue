@@ -82,7 +82,7 @@ const members: UserProps[] = [
       label: 'Обновить',
       icon: 'svg-spinners:gooey-balls-2',
       color: 'neutral',
-      class: 'cursor-pointer'
+      class: 'cursor-wait'
     }]"
   >
     <template #leading>
