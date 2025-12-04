@@ -1,5 +1,13 @@
 <template>
- <UPageSection>
+    <UPageSection
+    :title="page.myblock.title"
+    :description="page.myblock.description"
+    :ui="{
+      container: 'px-0 !pt-0 sm:gap-6 lg:gap-8',
+      title: 'text-left text-xl sm:text-xl lg:text-2xl font-medium',
+      description: 'text-left mt-2 text-sm sm:text-md lg:text-sm text-muted'
+    }"
+  >
   <UPageCard
     title="Скоро обновление"
     description="Скоро на этой странице появится обновление. Следите за новостями."
