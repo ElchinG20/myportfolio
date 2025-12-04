@@ -7,6 +7,6 @@
     spotlight
     spotlight-color="secondary"
   >
-    <img src="/tailwindcss-v4.svg" alt="Tailwind CSS" class="w-full" />
+    <img src="/hero/ra-100.jpg" alt="Tailwind CSS" class="w-full" />
   </UPageCard>
 </template>
