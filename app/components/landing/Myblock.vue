@@ -12,7 +12,9 @@
  </UPageSection>
 </template> -->
 
-<script setup lang="ts">
+
+
+<!-- <script setup lang="ts">
 import type { TimelineItem } from '@nuxt/ui'
 
 const items: TimelineItem[] = [
@@ -51,7 +53,7 @@ const items: TimelineItem[] = [
 
 const active = ref(0)
 
-// Note: This is for demonstration purposes only. Don't do this at home.
+
 onMounted(() => {
   setInterval(() => {
     active.value = (active.value + 1) % items.length
@@ -63,5 +65,5 @@ onMounted(() => {
   <UPageSection>
     <UTimeline orientation="horizontal" v-model="active" :items="items" class="w-full" />
   </UPageSection>
-</template>
+</template> -->
 
