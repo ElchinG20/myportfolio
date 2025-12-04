@@ -83,7 +83,7 @@ onMounted(() => {
     :button="{
       label: 'Войти',
       to: '/sign',
-      icon: 'i-heroicons-arrow-right'
+      icon: 'svg-spinners:gooey-balls-2'
     }"
     orientation="horizontal"
     tagline="Подключиться к хабу"
