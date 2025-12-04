@@ -19,6 +19,7 @@ useSeoMeta({
   ogDescription: page.value?.seo?.description || page.value?.description
 })
 </script>
+
 <!-- <template>
     <UBanner
     title="Мы в процессе крутого апгрейда. Скоро релиз!"
