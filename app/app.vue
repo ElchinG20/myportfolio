@@ -44,9 +44,9 @@ const [{ data: navigation }, { data: files }] = await Promise.all([
 </script>
 
 <template>
-  <UApp>
+  <UApp spotlight-color="secondary">
     <NuxtLayout>
-      <UMain class="relative" spotlight spotlight-color="secondary">
+      <UMain class="relative" spotlight-color="secondary">
         <NuxtPage />
       </UMain>
     </NuxtLayout>
