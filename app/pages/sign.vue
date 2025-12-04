@@ -21,7 +21,7 @@ import type { UserProps } from '@nuxt/ui'
 
 const members: UserProps[] = [
   {
-    name: 'Эльчин Гасанов',
+    name: 'Эльчин Г.',
     description: 'ElchinG20',
     to: 'https://github.com/ElchinG20',
     target: '_blank',
@@ -31,7 +31,7 @@ const members: UserProps[] = [
     }
   },
   {
-    name: 'Николай Восков',
+    name: 'Николай В.',
     description: 'pi0',
     to: 'https://github.com/pi0',
     target: '_blank',
@@ -41,7 +41,7 @@ const members: UserProps[] = [
     }
   },
   {
-    name: 'Оливер Харвин',
+    name: 'Оливер Х.',
     description: 'atinux',
     to: 'https://github.com/atinux',
     target: '_blank',
@@ -51,7 +51,7 @@ const members: UserProps[] = [
     }
   },
   {
-    name: 'Герман Нейман',
+    name: 'Герман Н.',
     description: 'benjamincanac',
     to: 'https://github.com/benjamincanac',
     target: '_blank',
@@ -65,7 +65,7 @@ const members: UserProps[] = [
 
 <template>
   <UBanner
-    title="Мы в процессе крутого апгрейда. Скоро релиз!"
+    title="Мы в процессе крутого апгрейда"
     close
     close-icon="i-lucide-x-circle"
   />
