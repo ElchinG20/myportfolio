@@ -70,15 +70,19 @@ const members: UserProps[] = [
     close-icon="i-lucide-x-circle"
   />
   <UEmpty
+    :ui="{
+      container: 'px-0 !pt-0 gap-4 sm:gap-4',
+      title: 'text-xl sm:text-xl lg:text-2xl font-medium',
+      description: 'mt-2 text-sm sm:text-md lg:text-sm text-muted'
+    }"
     title="Скоро будет круто 😎"
     description="В данный момент мы колдуем над сайтом. Магия требует времени!"
     variant="naked"
-    class="cursor-pointer"
-    :actions="[{
+    :actions="[{ 
       label: 'Обновить',
       icon: 'svg-spinners:gooey-balls-2',
       color: 'neutral',
-      link: 'cursor-pointer',
+      class: 'cursor-pointer'
     }]"
   >
     <template #leading>
