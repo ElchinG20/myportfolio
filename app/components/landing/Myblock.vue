@@ -61,7 +61,7 @@ onMounted(() => {
 
 <template>
   <UPageSection>
-    <UTimeline orientation="horizontal" v-model="active" :items="items" class="w-96" />
+    <UTimeline orientation="horizontal" v-model="active" :items="items" class="w-full" />
   </UPageSection>
 </template>
 
