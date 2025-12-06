@@ -64,11 +64,11 @@ const members: UserProps[] = [
 </script>
 
 <template>
-  <UBanner
+  <!-- <UBanner
     title="Мы в процессе крутого апгрейда"
     close
     close-icon="i-lucide-x-circle"
-  /><br>
+  /> --><br>
   <UEmpty
     :ui="{
       container: 'px-0 !pt-0 gap-4 sm:gap-4',
