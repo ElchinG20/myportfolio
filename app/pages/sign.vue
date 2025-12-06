@@ -69,7 +69,7 @@ const members: UserProps[] = [
     close
     close-icon="i-lucide-x-circle"
   /> -->
-  <UAlert
+  <UBanner
     color="neutral"
     variant="subtle"
     title="Разработка"
