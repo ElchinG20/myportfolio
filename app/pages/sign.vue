@@ -68,7 +68,16 @@ const members: UserProps[] = [
     title="Мы в процессе крутого апгрейда"
     close
     close-icon="i-lucide-x-circle"
-  /> --><br>
+  /> --><template>
+  <UAlert
+    color="neutral"
+    variant="subtle"
+    title="Разработка"
+    description="Мы в процессе крутого апгрейда"
+    icon="svg-spinners:blocks-shuffle-3"
+  />
+</template>
+<br>
   <UEmpty
     :ui="{
       container: 'px-0 !pt-0 gap-4 sm:gap-4',
