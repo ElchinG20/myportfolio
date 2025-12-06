@@ -65,7 +65,7 @@ const members: UserProps[] = [
 
 <template>
   <!-- <UBanner
-    title="Мы в процессе крутого апгрейда!"
+    title="Мы в процессе крутого апгрейда"
     close
     close-icon="i-lucide-x-circle"
   /> -->
