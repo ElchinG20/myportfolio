@@ -10,7 +10,9 @@ useHead({
     { key: 'theme-color', name: 'theme-color', content: color }
   ],
   link: [
-    { rel: 'icon', href: '/favicon.ico' }
+    { rel: 'icon', href: '/favicon.ico' },
+    { rel: 'apple-touch-icon', href: '/hero/EG_icon_180x180.svg'},
+    { rel: 'icon', href: '/hero/EG_icon_180x180.svg', sizes: '180x180'}
   ],
   htmlAttrs: {
     lang: 'en'
