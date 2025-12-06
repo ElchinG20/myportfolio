@@ -75,6 +75,7 @@ const members: UserProps[] = [
     title="Разработка"
     description="Мы в процессе крутого апгрейда"
     icon="svg-spinners:blocks-shuffle-3"
+    close
   />
 <br>
   <UEmpty
