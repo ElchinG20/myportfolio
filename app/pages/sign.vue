@@ -70,8 +70,8 @@ const members: UserProps[] = [
     close-icon="i-lucide-x-circle"
   /> -->
   <UBanner
-    color="neutral"
-    title="Разработка"
+    color="secondary"
+    title="Мы в процессе крутого апгрейда"
     icon="svg-spinners:blocks-shuffle-3"
     class="rounded-lg"
     close
