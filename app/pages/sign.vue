@@ -68,7 +68,7 @@ const members: UserProps[] = [
     title="Мы в процессе крутого апгрейда"
     close
     close-icon="i-lucide-x-circle"
-  /> --><template>
+  /> -->
   <UAlert
     color="neutral"
     variant="subtle"
@@ -76,7 +76,6 @@ const members: UserProps[] = [
     description="Мы в процессе крутого апгрейда"
     icon="svg-spinners:blocks-shuffle-3"
   />
-</template>
 <br>
   <UEmpty
     :ui="{
