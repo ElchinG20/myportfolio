@@ -71,10 +71,9 @@ const members: UserProps[] = [
   /> -->
   <UBanner
     color="neutral"
-    variant="subtle"
     title="Разработка"
-    description="Мы в процессе крутого апгрейда"
     icon="svg-spinners:blocks-shuffle-3"
+    class="rounded-lg"
     close
   />
 <br>
