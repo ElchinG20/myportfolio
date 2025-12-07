@@ -1,4 +1,6 @@
+
 <script setup lang="ts">
+import YandexLoginButton from './YandexLoginButton.vue';
 const { data: page } = await useAsyncData('sign', () => {
   return queryCollection('sign').first()
 })
@@ -69,30 +71,25 @@ const members: UserProps[] = [
     close
     close-icon="i-lucide-x-circle"
   /> -->
-  <UBanner
-    color="secondary"
-    title="Мы в процессе крутого апгрейда"
-    icon="svg-spinners:blocks-shuffle-3"
-    class="rounded-lg"
-    close
-  />
-<br>
-  <UEmpty
-    :ui="{
-      container: 'px-0 !pt-0 gap-4 sm:gap-4',
-      title: 'text-xl sm:text-xl lg:text-2xl font-medium',
-      description: 'mt-2 text-sm sm:text-md lg:text-sm text-muted'
-    }"
-    title="Скоро будет круто 😎"
-    description="В данный момент мы колдуем над сайтом. Магия требует времени!"
-    variant="naked"
-    :actions="[{ 
-      label: 'Обновить',
-      icon: 'svg-spinners:gooey-balls-2',
-      color: 'neutral',
-      class: 'cursor-wait'
-    }]"
-  >
+<UEmpty
+  :ui="{
+    container: 'px-0 !pt-0 gap-4 sm:gap-4',
+    title: 'text-xl sm:text-xl lg:text-2xl font-medium',
+    description: 'mt-2 text-sm sm:text-md lg:text-sm text-muted'
+  }"
+  title="Скоро будет круто 😎"
+  description="В данный момент мы колдуем над сайтом. Магия требует времени!"
+  variant="naked"
+  :actions="[
+    {
+      label: 'Войти через Яндекс',
+      icon: 'logos:yandex',  // иконка Яндекса (можно подобрать другую)
+      color: 'yellow',     // жёлтый цвет под бренд Яндекса
+      class: 'flex items-center gap-2',
+      click: loginWithYandex // обработчик клика
+    }
+  ]"
+>
     <template #leading>
       <UAvatarGroup size="xl">
         <UAvatar src="/hero/LOGO_ELCHIN_GASANOV.svg" alt="Эльчин Гасанов" />
