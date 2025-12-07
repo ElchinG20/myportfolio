@@ -90,7 +90,8 @@ const members: UserProps[] = [
       label: 'Обновить',
       icon: 'svg-spinners:gooey-balls-2',
       color: 'neutral',
-      class: 'cursor-wait'
+      class: 'cursor-wait',
+      click: 'loginWithYandex'
     }]"
   >
     <template #leading>
