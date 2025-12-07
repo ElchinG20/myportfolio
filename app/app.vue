@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { Analytics } from '@vercel/analytics/nuxt'
-import YandexMetrika from '/components/YandexMetrika.vue' // Импортируем компонент
 
 
 const colorMode = useColorMode()
 const color = computed(() => colorMode.value === 'dark' ? '#020618' : 'white')
+
 
 useHead({
   meta: [
@@ -50,7 +50,7 @@ const [{ data: navigation }, { data: files }] = await Promise.all([
 
 <template>
   <UApp>
-    <YandexMetrika /> <!-- Добавляем счётчик здесь -->
+    <YandexMetrika /> <!-- Компонент автоматически найден из /components/ -->
     <NuxtLayout>
       <UMain class="relative">
         <NuxtPage />
