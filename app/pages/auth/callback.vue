@@ -8,28 +8,28 @@ const runtimeConfig = useRuntimeConfig();
 const route = useRoute();
 const code = route.query.code;
 
-// Если код не получен — показываем сообщение и перенаправляем
-if (!code) {
+let isCodeValid = !!code; // Проверяем, есть ли код
+
+if (isCodeValid) {
+  try {
+    // Отправляем код на сервер для обмена на токен
+    const response = await $fetch('/api/auth/yandex', {
+      method: 'POST',
+      body: { code }
+    });
+
+    // Сохраняем токен
+    localStorage.setItem('yandexToken', response.accessToken);
+
+    // Переходим на главную страницу
+    router.push('/dashboard');
+  } catch (error) {
+    console.error('Ошибка авторизации:', error);
+    alert('Не удалось войти через Яндекс');
+    router.push('/');
+  }
+} else {
   alert('Ошибка: код авторизации не получен');
-  router.push('/');
-  return; // Этот return можно оставить, если он внутри условного блока (как здесь), но лучше переписать логику без него
-}
-
-try {
-  // Отправляем код на сервер для обмена на токен
-  const response = await $fetch('/api/auth/yandex', {
-    method: 'POST',
-    body: { code }
-  });
-
-  // Сохраняем токен
-  localStorage.setItem('yandexToken', response.accessToken);
-
-  // Переходим на главную страницу
-  router.push('/dashboard');
-} catch (error) {
-  console.error('Ошибка авторизации:', error);
-  alert('Не удалось войти через Яндекс');
   router.push('/');
 }
 </script>
