@@ -1,45 +1,48 @@
 <script setup>
-import { onMounted } from 'vue';
-import axios from 'axios';
+import { useRouter } from 'vue-router';
 
-onMounted(async () => {
-  // Получаем код из URL (?code=ABC123)
-  const urlParams = new URLSearchParams(window.location.search);
-  const code = urlParams.get('code');
+const router = useRouter();
+const runtimeConfig = useRuntimeConfig();
 
-  if (!code) {
-    alert('Ошибка: код авторизации не получен');
-    return;
-  }
+// Получаем code из URL
+const route = useRoute();
+const code = route.query.code as string;
 
-  try {
-    // Отправляем код на ваш сервер для обмена на токен
-    const response = await axios.post('/api/auth/yandex/token', { code });
-    const { accessToken } = response.data;
+if (!code) {
+  alert('Ошибка: код авторизации не получен');
+  router.push('/');
+  return;
+}
 
-    // Сохраняем токен (например, в localStorage)
-    localStorage.setItem('yandexToken', accessToken);
+try {
+  // Отправляем code на серверный эндпоинт
+  const response = await $fetch('/api/auth/yandex', {
+    method: 'POST',
+    body: { code }
+  });
 
-    // Получаем данные пользователя
-    const userResponse = await axios.get('https://login.yandex.ru/info', {
-      headers: {
-        Authorization: `OAuth ${accessToken}`
-      }
-    });
+  // Сохраняем токен
+  localStorage.setItem('yandexToken', response.accessToken);
 
-    console.log('Пользователь:', userResponse.data);
-    
-    // Перенаправляем на главную страницу
-    window.location.href = '/';
-  } catch (error) {
-    console.error('Ошибка авторизации:', error);
-    alert('Не удалось войти через Яндекс');
-  }
-});
+  // Получаем данные пользователя
+  const userResponse = await $fetch('https://login.yandex.ru/info', {
+    headers: {
+      Authorization: `OAuth ${response.accessToken}`
+    }
+  });
+
+  console.log('Пользователь:', userResponse);
+  router.push('/dashboard'); // перенаправление после входа
+} catch (error) {
+  console.error('Ошибка авторизации:', error);
+  alert('Не удалось войти через Яндекс');
+  router.push('/');
+}
 </script>
 
 <template>
-  <div>
+  <div class="p-4">
     <p>Обработка входа через Яндекс...</p>
   </div>
 </template>
+

@@ -1,27 +1,27 @@
 <template>
   <button @click="loginWithYandex" class="yandex-btn">
+    <img src="/yandex-logo.svg" alt="Яндекс" class="w-5 h-5 mr-2" />
     Войти через Яндекс
   </button>
 </template>
 
 <script setup>
+const runtimeConfig = useRuntimeConfig();
+
 const loginWithYandex = () => {
-  const clientId = '4db5a2205f204bb5b7972ce7f52ee6a4'; // замените на ваш Client ID
-  const redirectUri = 'https://ваш-сайт.ru/auth/yandex/callback'; // ваш callback URI
-  
+  const clientId = runtimeConfig.yaClientId;
+  const redirectUri = runtimeConfig.public.yaRedirectUri;
+
   const authUrl = `https://oauth.yandex.ru/authorize?response_type=code&client_id=${clientId}&redirect_uri=${redirectUri}`;
-  
-  window.location.href = authUrl; // перенаправление на страницу авторизации Яндекса
+  window.location.href = authUrl;
 };
 </script>
 
 <style>
 .yandex-btn {
-  background-color: #ffcc00;
-  color: #000;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  @apply bg-[#ffcc00] text-black px-4 py-2 rounded-md flex items-center;
+}
+.yandex-btn:hover {
+  @apply bg-[#e6b800];
 }
 </style>
