@@ -1,6 +1,4 @@
-
 <script setup lang="ts">
-import YandexLoginButton from './YandexLoginButton.vue';
 const { data: page } = await useAsyncData('sign', () => {
   return queryCollection('sign').first()
 })
