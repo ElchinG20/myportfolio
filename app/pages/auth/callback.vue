@@ -1,7 +1,6 @@
 <script setup>
 import { useRouter } from 'vue-router';
 
-
 const router = useRouter();
 const runtimeConfig = useRuntimeConfig();
 
@@ -9,10 +8,11 @@ const runtimeConfig = useRuntimeConfig();
 const route = useRoute();
 const code = route.query.code;
 
+// Если код не получен — показываем сообщение и перенаправляем
 if (!code) {
   alert('Ошибка: код авторизации не получен');
   router.push('/');
-  return;
+  return; // Этот return можно оставить, если он внутри условного блока (как здесь), но лучше переписать логику без него
 }
 
 try {
@@ -37,3 +37,4 @@ try {
 <template>
   <div>Обработка входа через Яндекс...</div>
 </template>
+
