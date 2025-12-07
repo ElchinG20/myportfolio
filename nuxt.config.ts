@@ -35,14 +35,5 @@ export default defineNuxtConfig({
       }
     }
   },
-
-  // Войти через Яндекс
-  runtimeConfig: {
-    public: {
-      yaRedirectUri: process.env.YA_REDIRECT_URI || ''
-    },
-    yaClientId: process.env.YA_CLIENT_ID || '',
-    yaClientSecret: process.env.YA_CLIENT_SECRET || ''
-  }
 })
 
