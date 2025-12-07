@@ -61,8 +61,7 @@ const members: UserProps[] = [
     }
   }
 ]
-</script>
-<script setup>
+
 const loginWithYandex = () => {
   const clientId = '4db5a2205f204bb5b7972ce7f52ee6a4';
   const redirectUri = 'https://elchin.vercel.app/id-open';
