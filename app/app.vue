@@ -50,7 +50,6 @@ const [{ data: navigation }, { data: files }] = await Promise.all([
 
 <template>
   <UApp>
-    <YandexMetrika /> <!-- Компонент автоматически найден из /components/ -->
     <NuxtLayout>
       <UMain class="relative">
         <NuxtPage />
