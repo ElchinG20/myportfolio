@@ -1,6 +1,5 @@
 <script setup>
 import { onMounted } from 'vue';
-import axios from 'axios';
 
 onMounted(async () => {
   // Получаем код из URL (?code=ABC123)
