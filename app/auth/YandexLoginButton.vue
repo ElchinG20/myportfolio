@@ -1,3 +1,4 @@
+
 <template>
   <button @click="loginWithYandex" class="yandex-btn">
     <img src="/yandex-logo.svg" alt="Яндекс" class="w-5 h-5 mr-2" />
@@ -5,7 +6,28 @@
   </button>
 </template>
 
-<script setup>
+<script setup >
+const { data: page } = await useAsyncData('YandexLoginButton', () => {
+  return queryCollection('YandexLoginButton').first()
+})
+if (!page.value) {
+  throw createError({
+    statusCode: 404,
+    statusMessage: 'Страница не найдена',
+    fatal: true
+  })
+}
+
+const { global } = useAppConfig()
+
+useSeoMeta({
+  title: page.value?.seo?.title || page.value?.title,
+  ogTitle: page.value?.seo?.title || page.value?.title,
+  description: page.value?.seo?.description || page.value?.description,
+  ogDescription: page.value?.seo?.description || page.value?.description
+})
+
+
 const runtimeConfig = useRuntimeConfig();
 
 const loginWithYandex = () => {
