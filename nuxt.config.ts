@@ -34,5 +34,18 @@ export default defineNuxtConfig({
         braceStyle: '1tbs'
       }
     }
+  },
+
+  // Войти через Яндекс
+  export default defineNuxtConfig({
+  runtimeConfig: {
+    public: {
+      yaRedirectUri: process.env.YA_REDIRECT_URI || ''
+    },
+    yaClientId: process.env.YA_CLIENT_ID || '',
+    yaClientSecret: process.env.YA_CLIENT_SECRET || ''
   }
+});
+
+
 })
