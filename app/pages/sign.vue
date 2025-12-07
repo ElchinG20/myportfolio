@@ -62,6 +62,16 @@ const members: UserProps[] = [
   }
 ]
 </script>
+<script setup>
+const loginWithYandex = () => {
+  const clientId = '4db5a2205f204bb5b7972ce7f52ee6a4';
+  const redirectUri = 'https://elchin.vercel.app/id-open';
+  
+  const authUrl = `https://oauth.yandex.ru/authorize?response_type=code&client_id=${clientId}&redirect_uri=${redirectUri}`;
+  
+  window.location.href = authUrl;
+};
+</script>
 
 <template>
   <!-- <UBanner
@@ -90,7 +100,7 @@ const members: UserProps[] = [
       label: 'Обновить',
       icon: 'svg-spinners:gooey-balls-2',
       color: 'neutral',
-      class: 'cursor-wait',
+      class: 'cursor-pointer',
       click: 'loginWithYandex'
     }]"
   >
