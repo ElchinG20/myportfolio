@@ -61,20 +61,11 @@ const members: UserProps[] = [
     }
   }
 ]
-
-const loginWithYandex = () => {
-  const clientId = '4db5a2205f204bb5b7972ce7f52ee6a4';
-  const redirectUri = 'https://elchin.vercel.app/id-open';
-  
-  const authUrl = `https://oauth.yandex.ru/authorize?response_type=code&client_id=${clientId}&redirect_uri=${redirectUri}`;
-  
-  window.location.href = authUrl;
-};
 </script>
 
 <template>
   <!-- <UBanner
-    title="Мы в процессе крутого апгрейда"
+    title="Мы в процессе крутого апгрейда!"
     close
     close-icon="i-lucide-x-circle"
   /> -->
@@ -99,8 +90,7 @@ const loginWithYandex = () => {
       label: 'Обновить',
       icon: 'svg-spinners:gooey-balls-2',
       color: 'neutral',
-      class: 'cursor-pointer',
-      click: 'loginWithYandex'
+      class: 'cursor-wait'
     }]"
   >
     <template #leading>
