@@ -1,47 +1,45 @@
 <script setup>
-import { useRouter } from 'vue-router';
+import { onMounted } from 'vue';
+import axios from 'axios';
 
-const router = useRouter();
-const runtimeConfig = useRuntimeConfig();
+onMounted(async () => {
+  // Получаем код из URL (?code=ABC123)
+  const urlParams = new URLSearchParams(window.location.search);
+  const code = urlParams.get('code');
 
-// Получаем code из URL
-const route = useRoute();
-const code = route.query.code as string;
+  if (!code) {
+    alert('Ошибка: код авторизации не получен');
+    return;
+  }
 
-if (!code) {
-  alert('Ошибка: код авторизации не получен');
-  router.push('/');
-  return;
-}
+  try {
+    // Отправляем код на ваш сервер для обмена на токен
+    const response = await axios.post('/api/auth/yandex/token', { code });
+    const { accessToken } = response.data;
 
-try {
-  // Отправляем code на серверный эндпоинт
-  const response = await $fetch('/api/auth/yandex', {
-    method: 'POST',
-    body: { code }
-  });
+    // Сохраняем токен (например, в localStorage)
+    localStorage.setItem('yandexToken', accessToken);
 
-  // Сохраняем токен
-  localStorage.setItem('yandexToken', response.accessToken);
+    // Получаем данные пользователя
+    const userResponse = await axios.get('https://login.yandex.ru/info', {
+      headers: {
+        Authorization: `OAuth ${accessToken}`
+      }
+    });
 
-  // Получаем данные пользователя
-  const userResponse = await $fetch('https://login.yandex.ru/info', {
-    headers: {
-      Authorization: `OAuth ${response.accessToken}`
-    }
-  });
-
-  console.log('Пользователь:', userResponse);
-  router.push('/dashboard'); // перенаправление после входа
-} catch (error) {
-  console.error('Ошибка авторизации:', error);
-  alert('Не удалось войти через Яндекс');
-  router.push('/');
-}
+    console.log('Пользователь:', userResponse.data);
+    
+    // Перенаправляем на главную страницу
+    window.location.href = '/';
+  } catch (error) {
+    console.error('Ошибка авторизации:', error);
+    alert('Не удалось войти через Яндекс');
+  }
+});
 </script>
 
 <template>
-  <div class="p-4">
+  <div>
     <p>Обработка входа через Яндекс...</p>
   </div>
 </template>
