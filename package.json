@@ -14,7 +14,7 @@
   "dependencies": {
     "@iconify-json/lucide": "^1.2.75",
     "@iconify-json/simple-icons": "^1.2.60",
-    "@nuxt/content": "^3.8.2",
+    "@nuxt/content": "^3.9.0",
     "@nuxt/image": "^2.0.0",
     "@nuxt/ui": "^4.2.1",
     "@vercel/analytics": "^1.6.1",
